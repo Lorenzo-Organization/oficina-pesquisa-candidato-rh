@@ -1,0 +1,31 @@
+data_pesquisa;candidato;cpf;vaga;cidade;uf;responsavel;consultas_feitas;total_consultas;situacao;resumo;placa_ultimo_veiculo;salario_vaga
+2026-09-04;Carlos Eduardo Nogueira;412.873.559-01;Motorista de caminhão-tanque;Ribeirão Preto;SP;Ana Paula;3;7;Em andamento;Faltam 4 consultas;FGH2C45;4200
+2026-09-03;Marcos Vinícius Prado;527.104.238-77;Motorista de caminhão-tanque;Sertãozinho;SP;Rodrigo;7;7;Ficha concluída;Nada consta em todas as consultas;QOP-7719;4200
+2026-09-03;Juliana Ferreira Lopes;318.590.664-12;Auxiliar administrativo;Araraquara;SP;Ana Paula;7;7;Ficha concluída;Nada consta em todas as consultas;;2600
+2026-09-02;Anderson Luiz Batista;690.221.487-55;Motorista de caminhão-tanque;Uberaba;MG;Rodrigo;7;7;Aguardando jurídico;1 processo trabalhista arquivado no TRT-3;RKM4H88;4200
+2026-09-02;Ricardo Nascimento Lira;493.180.752-66;Motorista de caminhão-tanque;Divinópolis;MG;Rodrigo;1;7;Em andamento;Só a Receita foi consultada;HGF-6634;4200
+2026-09-01;Rafael Souza Camargo;205.774.310-90;Ajudante de pátio;Franca;SP;Ana Paula;7;7;Ficha concluída;Nada consta em todas as consultas;;2100
+2026-08-31;Paulo Henrique Ramos;733.418.902-36;Motorista de caminhão-tanque;Uberlândia;MG;Rodrigo;5;7;Em andamento;Faltam TJSP e SENATRAN;NBT9E12;4350
+2026-08-31;Márcio Antônio Guimarães;816.529.437-91;Motorista de caminhão-tanque;Alfenas;MG;Ana Paula;7;7;Ficha concluída;Nada consta, CNH com MOPP válido;TYW5A80;4350
+2026-08-28;Sandra Regina Moreira;149.306.578-23;Auxiliar administrativo;São Carlos;SP;Ana Paula;7;7;Ficha concluída;Nada consta em todas as consultas;;2600
+2026-08-28;Leandro Alves Teixeira;826.045.193-64;Motorista de caminhão-tanque;Bauru;SP;Rodrigo;7;7;Aguardando jurídico;1 processo trabalhista em andamento no TRT-15;HJK5B31;4200
+2026-08-27;Fábio Cesar Andrade;371.928.604-18;Mecânico de frota;Piracicaba;SP;Ana Paula;7;7;Ficha concluída;Nada consta em todas as consultas;;3400
+2026-08-26;Tiago Martins Rocha;554.612.087-49;Motorista de caminhão-tanque;Poços de Caldas;MG;Rodrigo;7;7;Ficha concluída;Nada consta, CNH com MOPP válido;LQZ-3306;4200
+2026-08-25;Renato Pereira Dias;908.137.245-70;Motorista de caminhão-tanque;Limeira;SP;Ana Paula;2;7;Em andamento;Só Receita e TRT-15 consultados;BRS7F60;4200
+2026-08-24;Cristiane Oliveira Nunes;263.489.751-05;Auxiliar administrativo;Rio Claro;SP;Rodrigo;7;7;Ficha concluída;Nada consta em todas as consultas;;2600
+2026-08-21;José Roberto Fonseca;617.250.398-82;Motorista de caminhão-tanque;Passos;MG;Ana Paula;7;7;Ficha concluída;Nada consta em todas as consultas;PVA1J74;4350
+2026-08-20;Diego Santana Ribeiro;485.703.126-39;Ajudante de pátio;Jaú;SP;Rodrigo;7;7;Ficha concluída;Nada consta em todas as consultas;;2100
+2026-08-19;Wellington Costa Silva;792.364.510-27;Motorista de caminhão-tanque;Barretos;SP;Ana Paula;7;7;Aguardando jurídico;Processo cível no TJSP, sem relação com trabalho;GTX-8825;4200
+2026-08-18;Marcelo Augusto Lima;136.598.274-61;Motorista de caminhão-tanque;Araxá;MG;Rodrigo;7;7;Ficha concluída;Nada consta em todas as consultas;OWD3K19;4200
+2026-08-17;Patrícia Gomes Barbosa;850.271.463-94;Auxiliar administrativo;Catanduva;SP;Ana Paula;6;7;Em andamento;Falta TJMG;;2600
+2026-08-14;Adriano Menezes Cardoso;329.816.057-48;Motorista de caminhão-tanque;Patos de Minas;MG;Rodrigo;7;7;Ficha concluída;Nada consta em todas as consultas;KHP-4471;4350
+2026-08-13;Everton Luís Carvalho;574.902.381-16;Mecânico de frota;São José do Rio Preto;SP;Ana Paula;7;7;Ficha concluída;Nada consta em todas as consultas;;3400
+2026-08-12;Rogério Aparecido Matos;461.735.208-53;Motorista de caminhão-tanque;Araçatuba;SP;Rodrigo;7;7;Aguardando jurídico;2 processos trabalhistas encerrados com acordo;SDE6M02;4200
+2026-08-11;Vanessa Cristina Duarte;698.043.512-87;Auxiliar administrativo;Varginha;MG;Ana Paula;7;7;Ficha concluída;Nada consta em todas as consultas;;2600
+2026-08-10;Bruno Henrique Sales;213.657.849-30;Motorista de caminhão-tanque;Marília;SP;Rodrigo;7;7;Ficha concluída;Nada consta em todas as consultas;EFR-9153;4200
+2026-08-07;Cláudio Roberto Freitas;745.128.936-02;Motorista de caminhão-tanque;Pouso Alegre;MG;Ana Paula;4;7;Em andamento;Faltam TJSP, TJMG e SENATRAN;MJT8P67;4350
+2026-08-06;Luciana Martins Azevedo;382.591.670-45;Auxiliar administrativo;Ourinhos;SP;Rodrigo;7;7;Ficha concluída;Nada consta em todas as consultas;;2600
+2026-08-05;Alexandre Vieira Pinto;957.204.318-79;Motorista de caminhão-tanque;Botucatu;SP;Ana Paula;7;7;Ficha concluída;Nada consta em todas as consultas;CUB-2098;4200
+2026-08-04;Gustavo Rodrigues Melo;104.836.529-63;Ajudante de pátio;Ituiutaba;MG;Rodrigo;7;7;Ficha concluída;Nada consta em todas as consultas;;2100
+2026-08-03;Sérgio Luiz Monteiro;639.472.185-24;Motorista de caminhão-tanque;Frutal;MG;Ana Paula;7;7;Aguardando jurídico;1 processo trabalhista arquivado no TRT-3;RJN2Q53;4200
+2026-08-03;Daniela Souza Correia;278.315.694-08;Auxiliar administrativo;Campinas;SP;Rodrigo;7;7;Ficha concluída;Nada consta em todas as consultas;;2700

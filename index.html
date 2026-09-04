@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ficha de pesquisa do candidato · Stefani</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <!-- Topo: título e números de destaque -->
+  <header class="topo">
+    <div class="marca">
+      <h1>Ficha de pesquisa do candidato</h1>
+      <p>Stefani Transporte e Logística · RH</p>
+    </div>
+    <div class="numeros">
+      <div class="numero">
+        <strong id="num-total">–</strong>
+        <span>candidatos pesquisados</span>
+      </div>
+      <div class="numero">
+        <strong id="num-concluidas">–</strong>
+        <span>fichas concluídas</span>
+      </div>
+      <div class="numero">
+        <strong id="num-andamento">–</strong>
+        <span>em andamento</span>
+      </div>
+      <div class="numero">
+        <strong id="num-juridico">–</strong>
+        <span>aguardando jurídico</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Aviso: aparece só quando precisa (planilha não carregou, campo faltando) -->
+  <div id="aviso" class="aviso escondido"></div>
+
+  <main class="painel">
+
+    <!-- Coluna da esquerda: dados do candidato e roteiro de consultas -->
+    <section class="coluna coluna-ficha">
+      <form id="form-candidato" autocomplete="off">
+        <div class="linha">
+          <label class="campo campo-grande">
+            Nome do candidato
+            <input id="nome" type="text" placeholder="Nome completo">
+          </label>
+          <label class="campo">
+            CPF
+            <input id="cpf" type="text" inputmode="numeric" placeholder="000.000.000-00" maxlength="14">
+          </label>
+        </div>
+        <div class="linha">
+          <label class="campo">
+            Vaga
+            <select id="vaga">
+              <option>Motorista de caminhão-tanque</option>
+              <option>Ajudante de pátio</option>
+              <option>Auxiliar administrativo</option>
+              <option>Mecânico de frota</option>
+              <option>Outra</option>
+            </select>
+          </label>
+          <label class="campo">
+            Cidade
+            <input id="cidade" type="text" placeholder="Cidade/UF">
+          </label>
+          <label class="campo">
+            Quem pesquisou
+            <input id="responsavel" type="text" list="lista-responsaveis" placeholder="Seu nome">
+            <datalist id="lista-responsaveis">
+              <option value="Ana Paula">
+              <option value="Rodrigo">
+            </datalist>
+          </label>
+          <div class="campo copiar">
+            <span>Para colar nos sites</span>
+            <div>
+              <button type="button" id="copiar-nome" class="botao pequeno">Copiar nome</button>
+              <button type="button" id="copiar-cpf" class="botao pequeno">Copiar CPF</button>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <h2 class="titulo-roteiro">
+        Roteiro de consultas
+        <span id="progresso" class="progresso">0 de 0 feitas</span>
+      </h2>
+
+      <!-- O checklist é montado pelo app.js a partir da lista ROTEIRO -->
+      <ol id="checklist" class="checklist"></ol>
+
+      <div class="acoes">
+        <button type="button" id="btn-limpar" class="botao texto">Limpar tela</button>
+        <button type="button" id="btn-salvar" class="botao secundario">Salvar e continuar depois</button>
+        <button type="button" id="btn-ficha" class="botao principal">Gerar ficha em PDF</button>
+      </div>
+    </section>
+
+    <!-- Coluna da direita: pesquisas já feitas -->
+    <aside class="coluna coluna-lista">
+      <div class="busca">
+        <input id="busca" type="search" placeholder="Buscar por nome ou CPF">
+        <select id="filtro-situacao">
+          <option value="">Todas as situações</option>
+          <option>Em andamento</option>
+          <option>Ficha concluída</option>
+          <option>Aguardando jurídico</option>
+        </select>
+      </div>
+      <div class="tabela-caixa">
+        <table id="tabela">
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Candidato</th>
+              <th>Vaga</th>
+              <th>Consultas</th>
+              <th>Situação</th>
+              <th>Quem</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-corpo"></tbody>
+        </table>
+      </div>
+      <p class="nota">Clique numa linha para abrir a pesquisa. Os dados de exemplo são fictícios.</p>
+    </aside>
+
+  </main>
+
+  <!-- A ficha para impressão. Fica escondida na tela e aparece só no PDF. -->
+  <section id="ficha" class="ficha"></section>
+
+  <script src="app.js"></script>
+</body>
+</html>
